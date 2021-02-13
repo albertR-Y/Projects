@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sydney's Marathon</title>
+</head>
+
+<body>
+    <h1>Race Registration!</h1>
+    <form action="">
+        <label for="first">First Name</label>
+        <input type="text" id="first" required name="f_name">
+        <label for="Last">Last Name</label>
+        <input type="text" id="Last" required name="l_name">
+        <p>
+            Select a Race:
+        </p>
+        <div>
+            <input type="radio" id="package_1" value="basic" name="Marathon" required>
+            <label for="package_1">Fun Run 5k</label>
+        </div>
+        <div>
+            <input type="radio" id="package_2" value="Medium" name="Marathon" required>
+            <label for="package_2">Half Marathon</label>
+        </div>
+        <div>
+            <input type="radio" id="package_3" value="Hard" name="Marathon" required> 
+            <label for="package_3">Full Marathon</label>
+        </div>
+        <div>
+        <label for="">Email</label>
+        <input type="email" id="Email" required name="email">
+        <label for="">Password</label>
+        <input type="password" id="Password" required name="pw">
+        </div>
+        <div>
+            <Label for="">Select Age Group</Label>
+            <select name="Age" required>
+                <option disabled selected value>Select An option</option>
+                <option value="Less Than 17">17 & Under</option>
+                <option value="18 To 64">18 - 64</option>
+                <option value="65+">65+</option>
+            </select>
+        </div>
+        <div>
+            <button>Register!</button>
+        </div>
+    </form>
+</body>
+
+</html>
